@@ -1,68 +1,76 @@
 body {
   font-family: Arial, sans-serif;
+  background-image: url('https://i.postimg.cc/8kxkVS2d/2024-Acer-Consumer-Option-02-3840x2400.jpg');
+  background-size: cover;
+  color: #fff;
   text-align: center;
-  background-color: #f9f9f9;
-  padding: 20px;
+}
+
+header {
+  padding: 50px 20px;
 }
 
 h1 {
-  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 p {
-  color: #555;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
-.buttons {
-  margin: 20px 0;
+.contact-buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .circle-button {
   display: inline-block;
   width: 60px;
   height: 60px;
-  margin: 10px;
-  background-color: #25d366;
-  color: white;
+  line-height: 60px;
   border-radius: 50%;
   text-align: center;
-  line-height: 60px;
   font-size: 24px;
+  color: white;
+  margin: 10px;
   text-decoration: none;
-  transition: background-color 0.3s;
 }
 
-.circle-button.call {
-  background-color: #007bff;
+.call {
+  background-color: #007bff; /* أزرق للاتصال */
 }
 
-.circle-button:hover {
-  opacity: 0.8;
+.whatsapp {
+  background-color: #25D366; /* أخضر واتساب */
 }
 
-.services {
-  margin-top: 40px;
-  text-align: right;
-  display: inline-block;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#services {
+  margin-top: 50px;
 }
 
-.services h2 {
-  color: #333;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 10px;
+ul {
+  list-style-type: none;
 }
 
-.services ul {
-  list-style: none;
-  padding: 0;
-  font-size: 18px;
+ul li {
+  font-size: 20px;
+  margin: 10px 0;
 }
 
-.services li {
-  margin-bottom: 10px;
+#gallery {
+  margin-top: 50px;
+}
+
+.gallery-images img {
+  width: 100%;
+  max-width: 300px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
 }
